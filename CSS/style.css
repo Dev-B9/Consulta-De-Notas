@@ -264,11 +264,11 @@ td{
 
 
 /* ----- -----  Mediaqueries ----- ----- */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
 
 
 	.boton2s{
-		margin-top: -24.2%;
+		margin-top: -20.2%;
 		
 		
 		}
@@ -300,3 +300,5 @@ td{
 
 	
 }
+
+
