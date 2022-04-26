@@ -340,36 +340,4 @@ header{
 
 
 
-@media screen and (min-width: 900px) {
-	  
-	header{
-		width: 100%;
-	}
-	
-	.formulario{
-			
-		width: 90%;
-		margin-top: 15%;
-		margin-left: 17%;
-	}
-		
-	
-	header{
-		font-size: 13px;
-	}
-	.colors{
-		width: 0%;
-		right: 8%;
-	}
-	.title{
-		margin-top: 15%;
-		margin-left: 32%
-	}
-	.table-fill{
-		margin-top: 35%;
-		margin-left: 25%;
-		width: 70%;
-	}
-	
-	}
-	
+
