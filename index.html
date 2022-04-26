@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    
+    <header>
+        <h1>Calcularemos Tus Notas</h1>
+
+    </header>
+    <main>
+
+         <section class="formulario" >
+
+        <!-- SECCION PARA CALCULAR -->
+
+        
+
+           <!-- Grupo: Nota1 -->
+			<section class="formulario__grupo" >
+				<label for="Ingresar Nota" class="text_label">Ingresa Tu Primera Nota</label>
+
+				<section class="formulario__grupo-input">
+					<input onblur=verificar()  id="nota1" type="number" class="container_input"  placeholder="Ingresar Nota">
+					
+				</section>
+
+			</section>
+
+                <!-- SECCION NOTA2  -->
+                <section class="formulario__grupo" >
+                    <label for="telefono" class="text_label">Ingresa Tu Segunda Nota</label>
+    
+                    <section class="formulario__grupo-input">
+                        <input onblur=verificar1() id="nota2" type="text" class="container_input"  placeholder="Ingresar Nota">
+                        
+                    </section>
+    
+                </section>
+             
+               <!-- SECCION BOTONES -->
+               
+			    <section class="boton1s">
+					<button  id="calculo" class="boton" onclick=ganarMateria() >Para Ganar</button><br>
+					
+				</section >
+
+				<section class="boton2s"> 
+
+					<button id="recuperar" class="boton2" onclick=recuperar()>Para Recuperar</button><br>
+				</section>
+
+				<section class="boton3s">
+
+					<button id="cuadro" class="boton3" onclick=cuadro()>Entrar Al Cuadro De Honor</button><br>
+				</section>
+
+            </section>
+
+        </section>
+  
+              
+             <!-- RESULTADOS -->
+
+              <section>
+                  
+                  <h2 class="title" >Aqui Estaran Tus Resultados</h2>
+              </section>
+        
+            
+        
+        <table class="table-fill">
+            <tr> 
+                <th class="table-left">Para Aprobar </th>
+                <th class="table-left">Quedar Recuperando </th>
+                <th class="table-left">Entrar Al Cuadro De Honor </th>
+            </tr>
+    
+            <thead>
+    
+                <tbody class="table-hover">
+                    <tr>
+                        <td><p id="ganar">Result</p></td>
+    
+                        <td><p id="recupe">Result</p></td>
+    
+                        <td ><p id="honor">Result</p></td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    
+    <section class="colors">
+        <input  onchange=changeColor() id="color" type="color">
+    </section>
+
+    </section>
+</main>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
