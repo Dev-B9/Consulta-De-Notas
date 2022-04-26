@@ -1246,11 +1246,47 @@ td{
 
 
 
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 450px) {
+
+
+	.boton2s{
+		margin-top: -20.2%;
+		
+		
+		}
+
+	.boton3s {
+		margin-top: -6%;
+		width: 70%;
+		margin-left: -20%;
+			
+		}
+       
+
+
+		header{
+			font-size: 13px;
+		}
+		.colors{
+			width: 0%;
+			right: 15%;
+		}
+        .title{
+			margin-top: 20%;
+		}
+		.table-fill{
+			margin-top: 10%;
+			margin-left: 4%;
+			width: 90%;
+		}
+
+	
+}
 
 
 
-
-@media screen and (max-width: 894px) {
+@media screen and (min-width: 894px) {
 	  
 header{
 	width: 100%;
@@ -1286,7 +1322,7 @@ header{
 
 @media screen and (min-width: 900px) {
 	  
-	header{
+header{
 		width: 100%;
 		font-size: 13px;
 	}
