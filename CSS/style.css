@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -301,4 +302,38 @@ td{
 	
 }
 
+
+
+@media screen and (max-width: 894px) {
+	  
+header{
+	width: 100%;
+}
+
+.formulario{
+		
+	width: 70%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+	
+
+header{
+	font-size: 13px;
+}
+.colors{
+	width: 0%;
+	right: 7%;
+}
+.title{
+	margin-top: 8%;
+	margin-left: 32%
+}
+.table-fill{
+	margin-top: 20%;
+	margin-left: 20%;
+	width: 70%;
+}
+
+}
 
