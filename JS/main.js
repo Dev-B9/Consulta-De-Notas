@@ -92,7 +92,7 @@ function recuperar(){
     recupe.textContent = nFinal1.toFixed(1)
 
     if(nFinal1 < 0){
-        recupe.textContent = "No Es Necesario"
+        recupe.textContent = "Ya se enuentra en el rango"
     }
 
 }
