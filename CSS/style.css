@@ -1,4 +1,308 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #71cbf5a6;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.801);
+}
+main {
+    
+	max-width: 800px;
+	width: 100%;
+	margin-left: 1%;
+	
+}
+
+.formulario {
+    width: 100%;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+    margin-top: 10%;
+    margin-left: 33%;
+}
+
+.text_label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.nota1-input {
+	position: relative;
+}
+
+.container_input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+
+
+
+.nota1-terminos, 
+.formulario__mensaje,
+.nota1-btn-enviar {
+	grid-column: span 2;
+}
+
+
+
+.nota1-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boton {
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+.boton2 {
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.boton3 {
+	margin-left: 50%;
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+
+
+.boton:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+table{
+    
+    border: 2px solid black;
+    width: 92%;
+    height:100% ;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 36%;
+    height: 0%;
+}
+
+
+.table-fill{
+    border-radius: 3%;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    margin-top: 25%;
+    margin-left: 37%;
+	
+    
+    
+
+}
+
+
+
+
+
+th{
+    
+    width: 10%;
+    padding: 2%;
+    color: black;
+    border-color: black;
+    border-bottom: 4px solid black;
+    border-radius: 1px solid black;
+    text-align: center;
+}
+
+
+td{
+   
+    padding: 2%;
+    text-align: center;
+}
+
+
+.colors{
+	position: fixed;
+	top:45px ;
+	right: 20px;
+	width: 3%;
+	height: 3%;
+}
+	
+
+
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.nota1-terminos, 
+	.formulario__mensaje {
+		grid-column: 1;
+	}
+
+	header{
+		width: auto;
+        margin: auto;
+    }
+
+	.container_input{
+		text-align: center;
+	}
+    .formulario{
+		
+		width: 70%;
+		margin-top: 5%;
+        margin-left: 15%;
+    }
+    .boton1s {
+	text-align: center;
+	width: 40%;
+	margin-left: 0%;
+	}
+
+	.boton2s{
+	
+	text-align: center;
+	width: 40%;
+	margin-top: -14.5%;
+	margin-left: 60%;
+	
+	}
+	
+	
+	.boton3s {
+	
+	text-align: center;
+	width: 50%;
+	margin-left: -2%;
+		
+	}
+
+
+   .colors{
+	right: 5%;
+   }
+
+    
+
+
+    
+
+    .title{
+		position: relative;
+		margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    
+    .table-fill{
+        margin-top: 5%;
+		margin-left: 15%;
+        width: 70%;
+    }
+}
+
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 450px) {
+
+
+	.boton2s{
+		margin-top: -20.2%;
+		
+		
+		}
+
+	.boton3s {
+		margin-top: -6%;
+		width: 70%;
+		margin-left: -20%;
+			
+		}
+       
+
+
+		header{
+			font-size: 13px;
+		}
+		.colors{
+			width: 0%;
+			right: 15%;
+		}
+        .title{
+			margin-top: 20%;
+		}
+		.table-fill{
+			margin-top: 10%;
+			margin-left: 4%;
+			width: 90%;
+		}
+
+	
+}
+
+
+
 
 *{
     margin: 0;
@@ -339,5 +643,713 @@ header{
 
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #71cbf5a6;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.801);
+}
+main {
+    
+	max-width: 800px;
+	width: 100%;
+	margin-left: 1%;
+	
+}
+
+.formulario {
+    width: 100%;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+    margin-top: 10%;
+    margin-left: 33%;
+}
+
+.text_label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.nota1-input {
+	position: relative;
+}
+
+.container_input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+
+
+
+.nota1-terminos, 
+.formulario__mensaje,
+.nota1-btn-enviar {
+	grid-column: span 2;
+}
+
+
+
+.nota1-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boton {
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+.boton2 {
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.boton3 {
+	margin-left: 50%;
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+
+
+.boton:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+table{
+    
+    border: 2px solid black;
+    width: 92%;
+    height:100% ;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 36%;
+    height: 0%;
+}
+
+
+.table-fill{
+    border-radius: 3%;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    margin-top: 25%;
+    margin-left: 37%;
+	
+    
+    
+
+}
+
+
+
+
+
+th{
+    
+    width: 10%;
+    padding: 2%;
+    color: black;
+    border-color: black;
+    border-bottom: 4px solid black;
+    border-radius: 1px solid black;
+    text-align: center;
+}
+
+
+td{
+   
+    padding: 2%;
+    text-align: center;
+}
+
+
+.colors{
+	position: fixed;
+	top:45px ;
+	right: 20px;
+	width: 3%;
+	height: 3%;
+}
+	
+
+
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.nota1-terminos, 
+	.formulario__mensaje {
+		grid-column: 1;
+	}
+
+	header{
+		width: auto;
+        margin: auto;
+    }
+
+	.container_input{
+		text-align: center;
+	}
+    .formulario{
+		
+		width: 70%;
+		margin-top: 5%;
+        margin-left: 15%;
+    }
+    .boton1s {
+	text-align: center;
+	width: 40%;
+	margin-left: 0%;
+	}
+
+	.boton2s{
+	
+	text-align: center;
+	width: 40%;
+	margin-top: -14.5%;
+	margin-left: 60%;
+	
+	}
+	
+	
+	.boton3s {
+	
+	text-align: center;
+	width: 50%;
+	margin-left: -2%;
+		
+	}
+
+
+   .colors{
+	right: 5%;
+   }
+
+    
+
+
+    
+
+    .title{
+		position: relative;
+		margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    
+    .table-fill{
+        margin-top: 5%;
+		margin-left: 15%;
+        width: 70%;
+    }
+}
+
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 450px) {
+
+
+	.boton2s{
+		margin-top: -20.2%;
+		
+		
+		}
+
+	.boton3s {
+		margin-top: -6%;
+		width: 70%;
+		margin-left: -20%;
+			
+		}
+       
+
+
+		header{
+			font-size: 13px;
+		}
+		.colors{
+			width: 0%;
+			right: 15%;
+		}
+        .title{
+			margin-top: 20%;
+		}
+		.table-fill{
+			margin-top: 10%;
+			margin-left: 4%;
+			width: 90%;
+		}
+
+	
+}
+
+
+
+@media screen and (max-width: 894px) {
+	  
+header{
+	width: 100%;
+}
+
+.formulario{
+		
+	width: 70%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+	
+
+header{
+	font-size: 13px;
+}
+.colors{
+	width: 0%;
+	right: 7%;
+}
+.title{
+	margin-top: 8%;
+	margin-left: 32%
+}
+.table-fill{
+	margin-top: 20%;
+	margin-left: 20%;
+	width: 70%;
+}
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #71cbf5a6;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.801);
+}
+main {
+    
+	max-width: 800px;
+	width: 100%;
+	margin-left: 1%;
+	
+}
+
+.formulario {
+    width: 100%;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+    margin-top: 10%;
+    margin-left: 33%;
+}
+
+.text_label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.nota1-input {
+	position: relative;
+}
+
+.container_input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+
+
+
+.nota1-terminos, 
+.formulario__mensaje,
+.nota1-btn-enviar {
+	grid-column: span 2;
+}
+
+
+
+.nota1-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boton {
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+.boton2 {
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.boton3 {
+	margin-left: 50%;
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+
+
+.boton:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+table{
+    
+    border: 2px solid black;
+    width: 92%;
+    height:100% ;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 36%;
+    height: 0%;
+}
+
+
+.table-fill{
+    border-radius: 3%;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    margin-top: 25%;
+    margin-left: 37%;
+	
+    
+    
+
+}
+
+
+
+
+
+th{
+    
+    width: 10%;
+    padding: 2%;
+    color: black;
+    border-color: black;
+    border-bottom: 4px solid black;
+    border-radius: 1px solid black;
+    text-align: center;
+}
+
+
+td{
+   
+    padding: 2%;
+    text-align: center;
+}
+
+
+.colors{
+	position: fixed;
+	top:45px ;
+	right: 20px;
+	width: 3%;
+	height: 3%;
+}
+	
+
+
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.nota1-terminos, 
+	.formulario__mensaje {
+		grid-column: 1;
+	}
+
+	header{
+		width: auto;
+        margin: auto;
+    }
+
+	.container_input{
+		text-align: center;
+	}
+    .formulario{
+		
+		width: 70%;
+		margin-top: 5%;
+        margin-left: 15%;
+    }
+    .boton1s {
+	text-align: center;
+	width: 40%;
+	margin-left: 0%;
+	}
+
+	.boton2s{
+	
+	text-align: center;
+	width: 40%;
+	margin-top: -14.5%;
+	margin-left: 60%;
+	
+	}
+	
+	
+	.boton3s {
+	
+	text-align: center;
+	width: 50%;
+	margin-left: -2%;
+		
+	}
+
+
+   .colors{
+	right: 5%;
+   }
+
+    
+
+
+    
+
+    .title{
+		position: relative;
+		margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    
+    .table-fill{
+        margin-top: 5%;
+		margin-left: 15%;
+        width: 70%;
+    }
+}
+
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 450px) {
+
+
+	.boton2s{
+		margin-top: -20.2%;
+		
+		
+		}
+
+	.boton3s {
+		margin-top: -6%;
+		width: 70%;
+		margin-left: -20%;
+			
+		}
+       
+
+
+		header{
+			font-size: 13px;
+		}
+		.colors{
+			width: 0%;
+			right: 15%;
+		}
+        .title{
+			margin-top: 20%;
+		}
+		.table-fill{
+			margin-top: 10%;
+			margin-left: 4%;
+			width: 90%;
+		}
+
+	
+}
+
+
+
+@media screen and (max-width: 894px) {
+	  
+header{
+	width: 100%;
+}
+
+.formulario{
+		
+	width: 70%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+	
+
+header{
+	font-size: 13px;
+}
+.colors{
+	width: 0%;
+	right: 7%;
+}
+.title{
+	margin-top: 8%;
+	margin-left: 32%
+}
+.table-fill{
+	margin-top: 20%;
+	margin-left: 20%;
+	width: 70%;
+}
+
+}
+
+
+@media screen and (min-width: 900px) {
+	  
+	header{
+		width: 100%;
+	}
+	
+	.formulario{
+			
+		width: 90%;
+		margin-top: 15%;
+		margin-left: 17%;
+	}
+		
+	
+	header{
+		font-size: 13px;
+	}
+	.colors{
+		width: 0%;
+		right: 8%;
+	}
+	.title{
+		margin-top: 15%;
+		margin-left: 32%
+	}
+	.table-fill{
+		margin-top: 35%;
+		margin-left: 25%;
+		width: 70%;
+	}
+	
+	}
+	
